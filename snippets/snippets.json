@@ -1,0 +1,47 @@
+{
+    "IF":{
+        "prefix": "IF(default)",
+        "scope": "IF",
+        "body":[
+            "IF[${1:Left} ${2:EQ} ${3:Right}]THEN;",
+            "ELSE;",
+            "ENDIF;"
+        ],
+        "description":[
+            "IF"
+        ]
+    },
+    "IFB":{
+        "prefix": "IF(bit)",
+        "scope": "IFB",
+        "body":[
+            "IF[[${1:Param} ${2:AND} ${3:Bit}] ${4:EQ} ${5:Right}]THEN;",
+            "ELSE;",
+            "ENDIF;"
+        ],
+        "description":[
+            "IF bit"
+        ]
+    },
+    "IFG":{
+        "prefix": "IF(goto)",
+        "scope": "IFG",
+        "body":[
+            "IF[${1:Param} ${2:EQ} ${3:Right}]GOTO${4:0000};"
+        ],
+        "description":[
+            "IF bit"
+        ]
+    },
+    "N":{
+        "prefix": "N",
+        "scope": "N",
+        "body":[
+            "N${1:0000}"
+        ],
+        "description":[
+            "Set Sequence number"
+        ]
+    }
+
+}

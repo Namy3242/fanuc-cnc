@@ -1,0 +1,33 @@
+{
+    "name": "fanuc-cnc",
+    "displayName": "Fanuc_CNC",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "Namy",
+    "engines": {
+        "vscode": "*"
+    },
+    "categories": [
+        "Snippets",
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "fanuc-cnc",
+            "aliases": ["fanuc.cnc", "fanuc-cnc"],
+            "extensions": [".src",".nc"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "fanuc-cnc",
+            "scopeName": "source.fanuc",
+            "path": "./syntaxes/fanuc-cnc.tmLanguage.json"
+        }],
+        "snippets": [
+            {
+                "language": "fanuc-cnc",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
