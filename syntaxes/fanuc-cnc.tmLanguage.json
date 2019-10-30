@@ -25,6 +25,11 @@
 				"name": "comment.line.sinumerik",
 				"begin": ";",
 				"end": "\\n"
+				},
+				{
+				"name": "comment.line.sinumerik",
+				"begin": "(\\/\\*)",
+				"end": "\\n"
 				}
 			]
 		},

@@ -13,3 +13,7 @@ Syntax highlighting and snipets are covered for basic CNC command.
 ### 0.0.1
 
 Initial release.
+
+### 0.0.2
+
+Add comment syntax.
